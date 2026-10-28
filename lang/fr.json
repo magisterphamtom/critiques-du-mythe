@@ -1,0 +1,152 @@
+{
+  "CM": {
+    "Titre": {
+      "critique": "Réussite critique",
+      "maladresse": "Maladresse"
+    },
+    "Theme": {
+      "auto": "Automatique (époque ou thème du chat)",
+      "gaslight": "1890 — Gaslight",
+      "jazz": "Années 20-30",
+      "montagnes": "Montagnes Hallucinées (expédition polaire)",
+      "guerre": "1940 — Seconde Guerre mondiale",
+      "seventies": "Années 70",
+      "moderne": "Époque moderne"
+    },
+    "Test": {
+      "libelle": "Jet d'essai"
+    },
+    "Phrase": {
+      "gaslight": {
+        "critique": {
+          "1": "Élémentaire, vraiment élémentaire.",
+          "2": "Une déduction digne de Baker Street.",
+          "3": "Le brouillard se lève sur la vérité.",
+          "4": "La Société royale en parlera longtemps."
+        },
+        "maladresse": {
+          "1": "Le bec de gaz vacille… puis s'éteint.",
+          "2": "Quelque chose remue dans le brouillard.",
+          "3": "Un fiacre surgit de nulle part.",
+          "4": "Le sceau se brise entre vos doigts."
+        }
+      },
+      "jazz": {
+        "critique": {
+          "1": "Le jazz joue, la chance danse.",
+          "2": "Un coup digne des gros titres.",
+          "3": "Même Al Capone applaudirait.",
+          "4": "Le destin vous offre une tournée."
+        },
+        "maladresse": {
+          "1": "Les étoiles ne sont pas favorables.",
+          "2": "Quelque chose vous a remarqué.",
+          "3": "La flasque se renverse sur les preuves.",
+          "4": "Un murmure dans la langue des Anciens."
+        }
+      },
+      "montagnes": {
+        "critique": {
+          "1": "Un éclair de lucidité dans le blizzard.",
+          "2": "Les instruments ne mentent pas.",
+          "3": "Le Miskatonic sera fier de vous.",
+          "4": "La glace révèle son secret."
+        },
+        "maladresse": {
+          "1": "Tekeli-li ! Tekeli-li !",
+          "2": "Le vent porte un sifflement qui n'a rien d'humain.",
+          "3": "La crevasse s'ouvre sous vos pieds.",
+          "4": "Les chiens refusent d'avancer."
+        }
+      },
+      "guerre": {
+        "critique": {
+          "1": "Mission accomplie.",
+          "2": "Le Haut Commandement vous cite à l'ordre.",
+          "3": "Feu nourri, objectif atteint.",
+          "4": "La Résistance vous salue."
+        },
+        "maladresse": {
+          "1": "Dossier compromis.",
+          "2": "L'ennemi a entendu.",
+          "3": "Le parachute ne s'ouvre pas tout de suite…",
+          "4": "Ce n'était pas une carte d'état-major."
+        }
+      },
+      "seventies": {
+        "critique": {
+          "1": "Groovy, absolument groovy.",
+          "2": "Le Watergate n'a qu'à bien se tenir.",
+          "3": "Pile dans le mille, baby.",
+          "4": "La vibration est parfaite."
+        },
+        "maladresse": {
+          "1": "Mauvais trip.",
+          "2": "La bande magnétique a tout enregistré.",
+          "3": "Le van tombe en panne. Ici. Maintenant.",
+          "4": "Ils ne sont pas du gouvernement."
+        }
+      },
+      "moderne": {
+        "critique": {
+          "1": "Accès autorisé.",
+          "2": "Signal parfait, cible verrouillée.",
+          "3": "Le fil est remonté jusqu'à la source.",
+          "4": "Tendance mondiale en dix secondes."
+        },
+        "maladresse": {
+          "1": "Erreur 404 : réalité introuvable.",
+          "2": "Le signal vous a trouvé.",
+          "3": "Batterie à 1 %.",
+          "4": "Quelqu'un regarde par la caméra."
+        }
+      }
+    },
+    "Reglage": {
+      "critique": {
+        "nom": "Carte des réussites critiques",
+        "aide": "Affiche la carte plein écran sur une réussite critique (01)."
+      },
+      "maladresse": {
+        "nom": "Carte des maladresses",
+        "aide": "Affiche la carte plein écran sur une maladresse (100, ou 96 à 100 sous 50)."
+      },
+      "pnj": {
+        "nom": "Aussi pour les PNJ",
+        "aide": "Décochez pour réserver les cartes aux investigateurs des joueurs."
+      },
+      "theme": {
+        "nom": "Habillage",
+        "aide": "Automatique : l'époque de l'investigateur (Investigateurs de l'Ombre) ou le thème du chat (CoC7 avec « Cartes de chat thématiques »). Sinon, un habillage imposé."
+      },
+      "sonCritique": {
+        "nom": "Son des réussites critiques",
+        "aide": "Fichier audio facultatif. Vide : son de synthèse intégré."
+      },
+      "sonMaladresse": {
+        "nom": "Son des maladresses",
+        "aide": "Fichier audio facultatif. Vide : son de synthèse intégré."
+      },
+      "afficher": {
+        "nom": "Afficher les cartes",
+        "aide": "Réglage de chaque joueur : décochez pour ne plus voir les cartes plein écran."
+      },
+      "volume": {
+        "nom": "Volume",
+        "aide": "Volume du son des cartes (0 : muet)."
+      },
+      "duree": {
+        "nom": "Durée d'affichage (secondes)",
+        "aide": "Un clic sur la carte la ferme plus tôt."
+      },
+      "tremblement": {
+        "nom": "Tremblement de l'écran",
+        "aide": "Léger sur une réussite critique, fort sur une maladresse."
+      },
+      "sobre": {
+        "nom": "Version sobre",
+        "aide": "Sans animation ni particules (confort visuel)."
+      }
+    }
+  }
+}

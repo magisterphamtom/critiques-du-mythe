@@ -1,0 +1,64 @@
+{
+  "id": "critiques-du-mythe",
+  "title": "Critiques du Mythe",
+  "description": "Carte plein écran, tremblement de l'écran et son quand un investigateur obtient une réussite critique ou une maladresse. Habillage selon l'époque : 1890, années 20-30, Montagnes Hallucinées, 1940, années 70, époque moderne. Pour CoC7 et Investigateurs de l'Ombre. / Full-screen card, screen shake and sound on Call of Cthulhu critical successes and fumbles, styled by era.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "magisterphamtom",
+      "url": "https://github.com/magisterphamtom"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {
+          "minimum": "8"
+        }
+      },
+      {
+        "id": "investigateurs-ombre",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.12"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "coc7-cartes-chat",
+        "type": "module",
+        "reason": "Sous CoC7, l'habillage suit le thème du chat."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/critiques.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/magisterphamtom/critiques-du-mythe",
+  "manifest": "https://github.com/magisterphamtom/critiques-du-mythe/releases/latest/download/module.json",
+  "download": "https://github.com/magisterphamtom/critiques-du-mythe/releases/download/v1.0.0/module.zip",
+  "bugs": "https://github.com/magisterphamtom/critiques-du-mythe/issues",
+  "license": "MIT"
+}

@@ -1,0 +1,152 @@
+{
+  "CM": {
+    "Titre": {
+      "critique": "Critical success",
+      "maladresse": "Fumble"
+    },
+    "Theme": {
+      "auto": "Automatic (era or chat theme)",
+      "gaslight": "1890 — Gaslight",
+      "jazz": "1920s-30s",
+      "montagnes": "Mountains of Madness (polar expedition)",
+      "guerre": "1940 — World War II",
+      "seventies": "1970s",
+      "moderne": "Modern day"
+    },
+    "Test": {
+      "libelle": "Test roll"
+    },
+    "Phrase": {
+      "gaslight": {
+        "critique": {
+          "1": "Elementary, truly elementary.",
+          "2": "A deduction worthy of Baker Street.",
+          "3": "The fog lifts from the truth.",
+          "4": "The Royal Society will speak of it."
+        },
+        "maladresse": {
+          "1": "The gas lamp flickers… and dies.",
+          "2": "Something stirs in the fog.",
+          "3": "A hansom cab comes out of nowhere.",
+          "4": "The seal breaks in your fingers."
+        }
+      },
+      "jazz": {
+        "critique": {
+          "1": "The jazz plays, luck dances.",
+          "2": "A headline-worthy move.",
+          "3": "Even Capone would applaud.",
+          "4": "Fate buys you a round."
+        },
+        "maladresse": {
+          "1": "The stars are not right.",
+          "2": "Something has noticed you.",
+          "3": "The hip flask spills on the evidence.",
+          "4": "A whisper in the tongue of the Old Ones."
+        }
+      },
+      "montagnes": {
+        "critique": {
+          "1": "A flash of clarity in the blizzard.",
+          "2": "The instruments don't lie.",
+          "3": "Miskatonic will be proud.",
+          "4": "The ice gives up its secret."
+        },
+        "maladresse": {
+          "1": "Tekeli-li! Tekeli-li!",
+          "2": "The wind carries a whistle that is not human.",
+          "3": "The crevasse opens beneath you.",
+          "4": "The dogs refuse to go on."
+        }
+      },
+      "guerre": {
+        "critique": {
+          "1": "Mission accomplished.",
+          "2": "Mentioned in dispatches.",
+          "3": "Covering fire, objective taken.",
+          "4": "The Resistance salutes you."
+        },
+        "maladresse": {
+          "1": "File compromised.",
+          "2": "The enemy heard that.",
+          "3": "The parachute doesn't open right away…",
+          "4": "That was not a staff map."
+        }
+      },
+      "seventies": {
+        "critique": {
+          "1": "Groovy, totally groovy.",
+          "2": "Watergate had better watch out.",
+          "3": "Bullseye, baby.",
+          "4": "The vibe is perfect."
+        },
+        "maladresse": {
+          "1": "Bad trip.",
+          "2": "The tape recorded everything.",
+          "3": "The van breaks down. Here. Now.",
+          "4": "They are not from the government."
+        }
+      },
+      "moderne": {
+        "critique": {
+          "1": "Access granted.",
+          "2": "Perfect signal, target locked.",
+          "3": "Traced it back to the source.",
+          "4": "Trending worldwide in ten seconds."
+        },
+        "maladresse": {
+          "1": "Error 404: reality not found.",
+          "2": "The signal found you.",
+          "3": "Battery at 1%.",
+          "4": "Someone is watching through the camera."
+        }
+      }
+    },
+    "Reglage": {
+      "critique": {
+        "nom": "Critical success card",
+        "aide": "Show the full-screen card on a critical success (01)."
+      },
+      "maladresse": {
+        "nom": "Fumble card",
+        "aide": "Show the full-screen card on a fumble (100, or 96-100 below 50)."
+      },
+      "pnj": {
+        "nom": "NPCs too",
+        "aide": "Untick to keep the cards for player investigators."
+      },
+      "theme": {
+        "nom": "Look",
+        "aide": "Automatic: the investigator's era (Investigateurs de l'Ombre) or the chat theme (CoC7 with \"Cartes de chat thématiques\"). Otherwise, a fixed look."
+      },
+      "sonCritique": {
+        "nom": "Critical success sound",
+        "aide": "Optional audio file. Empty: built-in synthesized sound."
+      },
+      "sonMaladresse": {
+        "nom": "Fumble sound",
+        "aide": "Optional audio file. Empty: built-in synthesized sound."
+      },
+      "afficher": {
+        "nom": "Show the cards",
+        "aide": "Per player: untick to stop seeing the full-screen cards."
+      },
+      "volume": {
+        "nom": "Volume",
+        "aide": "Card sound volume (0: muted)."
+      },
+      "duree": {
+        "nom": "Display time (seconds)",
+        "aide": "Click the card to close it sooner."
+      },
+      "tremblement": {
+        "nom": "Screen shake",
+        "aide": "Light on a critical success, strong on a fumble."
+      },
+      "sobre": {
+        "nom": "Calm version",
+        "aide": "No animation or particles (visual comfort)."
+      }
+    }
+  }
+}
