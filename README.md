@@ -127,6 +127,11 @@ Pour voir un habillage précis : `tester("fumble", "montagnes")`. Les noms possi
 
 ---
 
+
+### Pour les autres modules
+
+`game.modules.get("critiques-du-mythe").api.declencher({ kind, acteur, libelle, resultat })` affiche la carte (`kind` : `"critical"` ou `"fumble"`) en respectant les réglages et l'époque. Roll Ensemble — CoC7 s'en sert pour les 01 et les maladresses de ses lancers de groupe.
+
 ## Installation
 
 Dans Foundry : **Modules › Installer un module**, puis colle l'adresse du manifeste :

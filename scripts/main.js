@@ -110,8 +110,23 @@ Hooks.on("updateChatMessage", (message) => { if (game.system.id !== "investigate
 Hooks.once("ready", () => {
   // Les messages déjà là ne rejouent pas leur effet s'ils sont mis à jour plus tard
   if (game.system.id !== "investigateurs-ombre") for (const m of game.messages) if (m.flags?.CoC7) vus.set(m.id, compteCoC7(m));
-  game.modules.get(ID).api = { afficher, tester: (kind = "critical", theme) => afficher({ kind, theme: theme ?? themeFor(game.user.character, get("theme")), nom: game.user.character?.name ?? game.user.name, img: game.user.character?.img, libelle: L("Test.libelle"), resultat: kind === "critical" ? 1 : 100, graine: Date.now() }) };
+  game.modules.get(ID).api = { afficher, declencher, themeFor, tester: (kind = "critical", theme) => afficher({ kind, theme: theme ?? themeFor(game.user.character, get("theme")), nom: game.user.character?.name ?? game.user.name, img: game.user.character?.img, libelle: L("Test.libelle"), resultat: kind === "critical" ? 1 : 100, graine: Date.now() }) };
 });
+
+/**
+ * Pour les autres modules (ex. Roll Ensemble — CoC7) : affiche la carte d'un critique / d'une maladresse
+ * en respectant les réglages (critique, maladresse, PNJ, affichage du joueur) et le thème de l'époque.
+ * Renvoie true si la carte a été affichée.
+ */
+async function declencher({ kind, acteur = null, nom, img, libelle, resultat, graine = Date.now() }) {
+  if (kind !== "critical" && kind !== "fumble") return false;
+  if (kind === "critical" && !get("critique")) return false;
+  if (kind === "fumble" && !get("maladresse")) return false;
+  if (!get("afficher")) return false;
+  if (!get("pnj") && acteur && !acteur.hasPlayerOwner) return false;
+  afficher({ kind, theme: themeFor(acteur, get("theme")), nom: acteur?.name ?? nom ?? "", img: acteur?.img ?? img, libelle, resultat, graine });
+  return true;
+}
 
 /* ------------------------------------------------------------------ */
 /*  Affichage                                                          */
